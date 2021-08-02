@@ -7,4 +7,4 @@ The Mouse class contains the basic features of mouse that all mouse have like ri
 Mouse1, Mouse2, Mouse3 all have some specific features which applies to only them.
 So to reduce the work we are inheriting all the basic methods that all mouses have into Mouse1, Mouse2 and Mouse3.
 We won't have to write the same code again in any of the other classes as we have inherited class Mouse.
-In class Main we are creating objects of Mouse1, Mouse2, Mouse3 to demonstrate how to use inheritance and calling the method of class Mousefrom objects of Mouse1, Mouse2, Mouse3.
+In class Main we are creating objects of Mouse1, Mouse2, Mouse3 to demonstrate how to use inheritance and calling the method of class Mouse from objects of Mouse1, Mouse2, Mouse3.
