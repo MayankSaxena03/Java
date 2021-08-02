@@ -1,0 +1,35 @@
+//Program to print first n prime numbers
+
+import java.util.Scanner;
+
+public class Prime {
+    public static void main(String[] args) {
+        System.out.print("Enter the number of first prime numbers you want to see : ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int i = 1;
+        int k = 2;
+        int j;
+        int d;
+        if (n < 1) {
+            System.out.println("No prime numbers");
+        } else {
+            while (i <= n) {
+                j = 2;
+                d = 0;
+                while (j < k) {
+                    if (k % j != 0) {
+                        d++;
+                    }
+                    j++;
+                }
+                if (d == (k - 2)) {
+                    System.out.println(k);
+                    i++;
+                }
+                k++;
+            }
+        }
+        sc.close();
+    }
+}
