@@ -1,3 +1,2 @@
-public_private folder contain the java files of access 1 and access 2
-protected_subclass folder contain the java files of access3 and access 4
-Open all 4 java files together to have a better understanding
+There are four files in src Access1, Access2, Access3, Access4.
+Read comments on all 4 files to have a better understanding of Access Modifiers
