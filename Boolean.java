@@ -17,5 +17,6 @@ public class Boolean {
         } else {
             System.out.println("Not eligible to vote"); //This runs when a is false
         }
+        scan.close();
     }
 }

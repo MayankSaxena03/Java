@@ -23,5 +23,7 @@ public class Arrays {
         }
         
         //Above methods can be used for different types of arrays of different data types.
+
+        scan.close();
     }
 }

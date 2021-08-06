@@ -17,6 +17,8 @@ public class Methods {
         subtract(a,b);
         multiplty(a,b);
         divide(a,b);
+
+        scan.close();
     }
 
     //Methods

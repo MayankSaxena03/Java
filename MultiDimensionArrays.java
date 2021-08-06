@@ -35,5 +35,6 @@ public class MultiDimensionArrays {
             }
             System.out.println(""); //Line break
         } 
+        scan.close();
     }
 }

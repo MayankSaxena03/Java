@@ -21,5 +21,6 @@ public class IfElse {
         } else {
             System.out.println("Number not in Range");
         }
+        scan.close();
     }
 }
