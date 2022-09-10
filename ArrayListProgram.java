@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayListProgram {
     public static void main(String[] args) {
@@ -38,6 +39,9 @@ public class ArrayListProgram {
         foodList.add("Burger");
         foodList.add("Pizza");
         foodList.add("Fries");
+        System.out.println(foodList);
+        
+        Collections.sort(foodList); //Sort arrayList
         System.out.println(foodList);
     }
 }

@@ -30,5 +30,7 @@ public class HashMapProgram {
         System.out.println(namePassword.containsValue("12345678")); //will check if value is present in map
         System.out.println(namePassword.keySet()); //will print all keys
         System.out.println(namePassword.values()); //will print all values
+        namePassword.remove("abcdef@xyz.com");
+        System.out.println(namePassword); //will print after removing key
     }
 }
